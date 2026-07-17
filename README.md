@@ -1,4 +1,4 @@
-# Daniel Murimi Njiraini — Portfolio (Dossier Theme)
+#Portfolio (Dossier Theme)
 
 A single-page, tech-minimal "personnel dossier" style portfolio. Dull-corporate palette,
 frosted-glass panels that sharpen into focus as you scroll ("focus-pull" reveal), a subtle
