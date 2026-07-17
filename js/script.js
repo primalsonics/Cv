@@ -89,31 +89,6 @@ function pulseGrain(grainEl){
   }, 140);
 }
 
-
-  addInteractivity() {
-    const host = this;
-    
-    // Add focus logic
-    host.addEventListener('mouseenter', () => {
-      host.classList.remove('blurred');
-      host.focus();
-    });
-
-    // Add blur logic when mouse leaves
-    host.addEventListener('mouseleave', () => {
-      // Optional: Add a slight delay or keep it sharp based on preference
-      host.classList.add('blurred');
-      host.blur();
-    });
-
-    // Ensure keyboard accessibility
-    host.setAttribute('tabindex', '0');
-    host.addEventListener('focus', () => host.classList.remove('blurred'));
-    host.addEventListener('blur', () => host.classList.add('blurred'));
-  }
-}
-
-customElements.define('contact-code-block', ContactCodeBlock);   
 /* ---------- ambient dust / grain particles ---------- */
 function initParticles() {
   const canvas = document.getElementById("particleCanvas");
