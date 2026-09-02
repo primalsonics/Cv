@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daniel Murimi Njiraini — Dossier</title>
+<title>Portfolio — Dossier</title>
 <meta name="description" content="Portfolio of Daniel Murimi Njiraini — IT Developer & Customer service and Systems Professional.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +17,13 @@
 <!-- grain overlay -->
 <svg class="grain-svg grain-container" aria-hidden="true" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999;">
   <filter id="heavyGrainFilter">
-    <feTurbulence id="grainTurbulence" type="fractalNoise" baseFrequency="0.95" numOctaves="4" stitchTiles="stitch" result="noise"/>
+    <feTurbulence id="grainTurbulence" type="fractalNoise" baseFrequency="1.95" numOctaves="6" stitchTiles="stitch" result="noise"/>
     <feDisplacementMap in="SourceGraphic" in2="noise" scale="15" xChannelSelector="R" yChannelSelector="G"/>
     <feColorMatrix in="noise" type="matrix"
       values="0 0 0 0 0
               0 0 0 0 0
               0 0 0 0 0
-              0 0 0 0.85 0"/>
+              0 0 0 0.65 0"/>
   </filter>
   <rect width="100%" height="100%" filter="url(#heavyGrainFilter)"/>
 </svg>
@@ -62,14 +62,14 @@
     </svg>
 
     <img
-      src="assets/IMG_1136.jpg"
+      src="assets/dp.jpg"
       alt="Portrait"
       class="cover-photo-main"
       onload="this.closest('.placeholder-image').classList.add('has-main-photo')"
       onerror="this.style.display='none'">
 
     <img
-      src="assets/dp.jpg"
+      src="assets/IMG_1136.jpg"
       alt="Profile close-up"
       class="cover-photo-badge"
       onload="this.style.opacity=1"
@@ -79,8 +79,8 @@
 </div>
 
         <div class="cover-copy">
-          <p class="eyebrow">FILE No. 001 — PERSONNEL DOSSIER</p>
-          <h1 class="cover-name">Daniel Murimi<br>Njiraini</h1>
+          <p class="eyebrow">FILE No. 001 — PERSONNEL RESUME</p>
+          <h1 class="cover-name">BRIEF<br>INTRO</h1>
           <p class="cover-role">" Practitioner of the Software Arts (Full-Stack Development & Implementation), and Attendant upon Customers and their issues(customer service), being also capable When charged with the Diligent Upkeep of Systems(Hardware and softwre Maintenance)"</p>
           <p class="cover-location">Kerugoya And Nairobi, Kenya</p>
           <ul class="cover-contact-list">
